@@ -59,7 +59,7 @@
 		<li><a href="https://twitter.com/Mi_dam" target="_blank" class="twitter" title="Twitter">Twitter</a></li>
 		<li><a href="http://fr.viadeo.com/fr/profile/damien.lebret4" target="_blank" class="viadeo" title="Mon profil Viadeo">Viadeo</a></li>
 		<!--<li><a href="https://www.youtube.com/channel/UC1VVfh-ZmJ-0LZ4y7B6ZVUw" target="_blank" class="youtube" title="Ma chaine Youtube">Youtube</a></li>-->
-		<!--<li><a href="https://github.com/junior2386" target="_blank" class="github" title="Mon Github - en cours">Github</a></li>-->
+		<li><a href="https://github.com/junior2386" target="_blank" class="github" title="Mon Github - en cours">Github</a></li>
 		<li><a href="http://maselectionduweb.besaba.com/" target="_blank" class="wordpress" title="Mon blog Wordpress">Wordpress</a></li>
 	</ul>
 	<div id="wrapper">
