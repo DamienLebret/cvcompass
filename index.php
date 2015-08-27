@@ -11,12 +11,18 @@
         <meta name="Author" content="LEBRET Damien">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		
-		<meta property="og:title" content="CV LEBRET Damien">
 		<meta property="og:type" content="author">
+		<meta property="og:title" content="CV LEBRET Damien">
 		<meta property="og:url" content="http://lebret.damien.free.fr">
-		<meta property="og:image" content="http://lebret.damien.free.fr/img/header_8dbcd0.png">
 		<meta property="og:site_name" content="CV LEBRET Damien">
 		<meta property="og:description" content="Curriculum Vitae LEBRET Damien Developpeur WEB PORTFOLIO CV">
+		<meta property="og:image" content="http://lebret.damien.free.fr/img/header_8dbcd0.png">
+		
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:site" content="@LebretDamien63">
+		<meta name="twitter:title" content="CV LEBRET Damien">
+		<meta name="twitter:description" content="Curriculum Vitae LEBRET Damien Developpeur WEB PORTFOLIO CV">
+		<meta name="twitter:image:src" content="http://lebret.damien.free.fr/portfolio/big/cv.jpg">
 		
 		<link rel="stylesheet" type="text/css" href="css/screen.css">      
         <link type="text/css" href="api/js/jquery-ui-1.10.4.custom/css/custom-theme/jquery-ui-1.10.4.custom.css" rel="stylesheet" >
