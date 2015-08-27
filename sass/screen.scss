@@ -608,6 +608,17 @@
 /*  PORTFOLIO  */
 /* * * * * * * */ 	
 	
+	.bg_carzo{background: #353b42 url("../portfolio/bann_carzo.jpg") no-repeat center left}
+	.bg_ccia{background: #353b42 url(../portfolio/bann_ccia.jpg) no-repeat center left}
+	.bg_cv{background: #353b42 url(../portfolio/bann_cv.jpg) no-repeat center left}
+	.bg_msw{background: #353b42 url(../portfolio/bann_msdw.jpg) no-repeat center left}
+	.bg_databoxeco{background: #353b42 url(../portfolio/bann_databoxeco.jpg) no-repeat center left}
+	.bg_madeinxenon{background: #353b42 url(../portfolio/bann_madeinxenon.jpg) no-repeat center left}
+	.bg_rlm{background: #353b42 url(../portfolio/bann_RLM.jpg) no-repeat center left}
+	.bg_damsbook{background: #353b42 url(../portfolio/bann_damsbook.jpg) no-repeat center left}
+	.bg_bla{background: #353b42 url(../portfolio/bann_bla.jpg) no-repeat center left}
+	
+	
 	$portfolio-width-a : 900px;
 	$portfolio-width-b : 720px;
 	$portfolio-width-c : 486px;
@@ -673,7 +684,6 @@
 					z-index:20;					
 					color:#fff;
 					text-decoration:none;
-					background:#353b42 top left;
 					width:100%;						
 					@include border-radius(5px, 5px);
 					border: 1px solid $color-black-gen;
