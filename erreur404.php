@@ -4,7 +4,7 @@
 	else
 		$getp = "cv";
 
-if($getp == "cv" || $getp == "mon_portfolio"){
+if($getp == "cv" || $getp == "mon-portfolio"){
 	header('Status: 200');
 	header('Location: /?p=' . $getp );
 	break;
