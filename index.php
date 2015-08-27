@@ -5,7 +5,7 @@
 
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 		
-        <meta name="description" content="CV LEBRET Damien Developpeur WEB PORTFOLIO ">
+        <meta name="description" content="Curriculum Vitae LEBRET Damien Developpeur WEB PORTFOLIO CV">
         <meta name="Keywords" content="PORTFOLIO CV LEBRET Damien Developpeur WEB">
         <meta name="Content-Language" content="fr">
         <meta name="Author" content="LEBRET Damien">
@@ -59,7 +59,7 @@
 		<li><a href="https://twitter.com/Mi_dam" target="_blank" class="twitter" title="Twitter">Twitter</a></li>
 		<li><a href="http://fr.viadeo.com/fr/profile/damien.lebret4" target="_blank" class="viadeo" title="Mon profil Viadeo">Viadeo</a></li>
 		<!--<li><a href="https://www.youtube.com/channel/UC1VVfh-ZmJ-0LZ4y7B6ZVUw" target="_blank" class="youtube" title="Ma chaine Youtube">Youtube</a></li>-->
-		<li><a href="https://github.com/junior2386" target="_blank" class="github" title="Mon Github - en cours">Github</a></li>
+		<li><a href="https://github.com/DamienLebret" target="_blank" class="github" title="Mon Github - en cours">Github</a></li>
 		<li><a href="http://maselectionduweb.besaba.com/" target="_blank" class="wordpress" title="Mon blog Wordpress">Wordpress</a></li>
 	</ul>
 	<div id="wrapper">
@@ -67,7 +67,7 @@
 			<div class="content">
 				<table style="width:100%">
 					<tr>
-						<td style="padding-right:10px;"><img src="img/header_8dbcd0.png" alt="" class="img_profil"></td>
+						<td style="padding-right:10px;"><img src="img/header_8dbcd0.png" alt="Image de profil" class="img_profil"></td>
 						<td style="text-align:right;">
 							<h1>Damien LEBRET</h1><h2>DEVELOPPEUR WEB</h2>
 							<hr>
