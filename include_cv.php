@@ -1,7 +1,7 @@
 <div class="col_brique_br">
 	<div class="brique_b brique">
 		<div class="content">			 
-			<h3>CCI Auvergne</h3><div class="float_right" class="c_gc">Mars 2009 à aujourd'hui</div>	 
+			<h3>CCI Auvergne</h3><div class="float_right c_gc">Mars 2009 à aujourd'hui</div>	 
 			<h4>Développeur WEB</h4>
 			<ul>
 				<li>Développement / Maintenance de sites web.
@@ -40,7 +40,7 @@
 
 	<div class="brique_b brique">
 		<div class="content">
-			<h3>SNCF</h3><div class="float_right" class="c_gc">Mai / Juin 2008</div>	 
+			<h3>SNCF</h3><div class="float_right c_gc">Mai / Juin 2008</div>	 
 			<h4>Stage en développement</h4>
 			Stage à la SNCF de Saint Pierre des Corps (37) - développement d’une application de maintenance en Visual Basic.	
 			<ul class="tags"><li>VB</li></ul>			
@@ -50,7 +50,7 @@
 
 	<div class="brique_b brique">
 		<div class="content">
-			<h3>CPAM</h3><div class="float_right" class="c_gc">Eté 2006</div>	 
+			<h3>CPAM</h3><div class="float_right c_gc">Eté 2006</div>	 
 			<h4>Stage en développement</h4>
 			Stage à la Caisse Primaire d'Assurance Maladie (CPAM) de Guéret (développement d'applications en visual basic et PHP MySQL).	
 			<ul class="tags"><li>VB</li><li>PHP</li><li>MySQL</li></ul>
@@ -60,7 +60,7 @@
 
 	<div class="brique_b brique">
 		<div class="content">
-			<h3>ETUDE</h3><div class="float_right" class="c_gc">2005 à 2007</div>	 
+			<h3>ETUDE</h3><div class="float_right c_gc">2005 à 2007</div>	 
 			<h4>BTS IRIS</h4>
 			BTS IRIS (Informatique Réseaux pour les Industries et Services) - Lycée Pilote Innovant de Jaunay Clan (86)
 			<div class="clear"></div>				
@@ -69,7 +69,7 @@
 	
 	<div class="brique_b brique">
 		<div class="content">
-			<h3>ETUDE</h3><div class="float_right" class="c_gc">2003 à 2005</div>	 
+			<h3>ETUDE</h3><div class="float_right c_gc">2003 à 2005</div>	 
 			<h4>BAC STI GET</h4>
 			Baccalauréat STI (Sciences Techniques Industrielles) en Génie Electrotechnique (GET) - Lycée Jean Favard de Guéret (23).
 			<div class="clear"></div>				

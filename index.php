@@ -109,10 +109,10 @@
 			<div class="content_wp">
 				<table class="pc50">
 					<tr>
-						<td class="bg_gf"><a class="content <?php if($getp == "cv") echo "active"; ?>" id='menu_cv' href="?p=cv" title="Mon CV">MON CV</a></td>
+						<td class="bg_gf"><a class="content <?php if($getp == "cv") echo "active"; ?>" id='menu_cv' href="cv" title="Mon CV">MON CV</a></td>
 					</tr>
 					<tr>
-						<td class="bg_gc"><a class="content <?php if($getp == "portfolio") echo "active"; ?>" id='menu_portfolio' href="?p=mon-portfolio" title="Portfolio">PORTFOLIO</a></td>
+						<td class="bg_gc"><a class="content <?php if($getp == "portfolio") echo "active"; ?>" id='menu_portfolio' href="mon-portfolio" title="Portfolio">PORTFOLIO</a></td>
 					</tr>
 				</table>
 			</div>
@@ -129,6 +129,6 @@
 		<div class="clear margin_bottom_30;"></div>		
 	</div>
 	
-	<div id="footer"><a href="mailto:lebret.damien@gmail.com" title="Damien LEBRET">Damien LEBRET</a> - <a id="open_bd" class="pointer" title="Mentions légales">Mentions légales</a> - <a href="sitemap.xml" title="Sitemap" target="_blank">Sitemap</a> - <a href="?p=cv" title="Mon CV">Mon CV</a> - <a href="?p=mon-portfolio" title="Portfolio">Portfolio</a></div>
+	<div id="footer"><a href="mailto:lebret.damien@gmail.com" title="Damien LEBRET">Damien LEBRET</a> - <a id="open_bd" class="pointer" title="Mentions légales">Mentions légales</a> - <a href="sitemap.xml" title="Sitemap" target="_blank">Sitemap</a> - <a href="cv" title="Mon CV">Mon CV</a> - <a href="mon-portfolio" title="Portfolio">Portfolio</a></div>
 </body>    
 </html>
