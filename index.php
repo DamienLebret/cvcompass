@@ -135,7 +135,7 @@
 		
 		<div id="page" class="margin_padding_zero">
 			<?php 		
-					include(dirname(__FILE__)."/include_".$getp.".php");
+					include(dirname(__FILE__)."/include_mon-portfolio.php");
 			?>
 		</div>
 		

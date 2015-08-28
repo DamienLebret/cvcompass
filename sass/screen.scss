@@ -204,7 +204,7 @@
 	  @media only screen and (min-width: $screen-width-pc) {font-size:100%;}
 	  @media only screen and (min-width: $screen-width-tablette) and (max-width: $screen-width-pc) {font-size:80%;}
 	  @media only screen and (min-width: $screen-width-smartphone) and (max-width: $screen-width-tablette) {font-size:70%;}
-	  @media only screen and (max-width: $screen-width-smartphone) {font-size:50%;}	
+	  @media only screen and (max-width: $screen-width-smartphone) {font-size:70%;}	
 	}
 
 	ol, ul {
@@ -441,6 +441,7 @@
 	  min-height:50px;
 	  text-align:justify;
 	  overflow:hidden;
+	  word-wrap: break-word;
 	  
 		.content{
 		  @media only screen and (min-width: $screen-width-pc) {padding:10px;}
@@ -458,8 +459,8 @@
 	  position:relative;
 	  @media only screen and (min-width: $screen-width-pc) {height:220px;@include brique(44%, 2% 1% 1% 2%, 0, left);}
 	  @media only screen and (min-width: $screen-width-tablette) and (max-width: $screen-width-pc) {height:180px;@include brique(40%, 2% 1% 1% 2%, 0, left);}
-	  @media only screen and (min-width: $screen-width-smartphone) and (max-width: $screen-width-tablette) {height:140px;@include brique(96%, 1% 2% 1% 2%, 0, none);}
-	  @media only screen and (max-width: $screen-width-smartphone) {height:110px;@include brique(96%, 1% 2% 1% 2%, 0, none);}
+	  @media only screen and (min-width: $screen-width-smartphone) and (max-width: $screen-width-tablette) {height:150px;@include brique(96%, 1% 2% 1% 2%, 0, none);}
+	  @media only screen and (max-width: $screen-width-smartphone) {height:140px;@include brique(96%, 1% 2% 1% 2%, 0, none);}
 	}
 	
 	.brique_tr{
@@ -632,7 +633,7 @@
 	$portfolio-height-e : 420px;
 	$portfolio-height-f : 350px;
 	$portfolio-height-g : 270px;
-	$portfolio-height-h : 220px;
+	$portfolio-height-h : 270px;
 		
 	#portfolio{
 		margin:20px auto;

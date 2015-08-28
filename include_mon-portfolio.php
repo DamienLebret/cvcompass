@@ -1,7 +1,7 @@
 <div id="portfolio">
 	<ul>
 		<li>
-			<a href="#" class="banniere bg_carzo" title="Ouvrir"></a>
+			<div class="banniere bg_carzo"></div>
 			<div class="description">
 				<div class="bandeau_logo"><img class="logo" title="logo" src="portfolio/logo/css.png" alt="CSS"><img class="logo" title="logo" src="portfolio/logo/brand-flat.png" alt="E-monsite"></div>
 				<h4>CARZO</h4>
@@ -15,7 +15,7 @@
 			</div>
 		</li>
 		<li>
-			<a href="#" class="banniere bg_ccia" title="Ouvrir"></a>
+			<div class="banniere bg_ccia"></div>
 			<div class="description">
 				<div class="bandeau_logo"><img class="logo" title="logo" src="portfolio/logo/druplicon.large_.png" alt="DRUPAL 7"></div>
 				<h4>CCI Auvergne</h4>
@@ -29,7 +29,7 @@
 			</div>
 		</li>
 		<li>
-			<a href="#" class="banniere bg_cv" title="Ouvrir"></a>
+			<div class="banniere bg_cv"></div>
 			<div class="description">
 				<div class="bandeau_logo"><img class="logo" title="logo" src="portfolio/logo/css.png" alt="CSS"><img class="logo" title="logo" src="portfolio/logo/75_compass.png" alt="Compass"><img class="logo" title="logo" src="portfolio/logo/jquery-logo.png" alt="Jquery"><img class="logo" title="logo" src="portfolio/logo/php.png" alt="PHP"><img class="logo" title="logo" src="portfolio/logo/logo-html.png" alt="HTML"></div>
 				<h4>Mon CV</h4>
@@ -43,7 +43,7 @@
 			</div>
 		</li>
 		<li>
-			<a href="#" class="banniere bg_msw" title="Ouvrir"></a>
+			<div class="banniere bg_msw"></div>
 			<div class="description">
 				<div class="bandeau_logo"><img class="logo" title="logo" src="portfolio/logo/wp.png" alt="HTML"></div>
 				<h4>Ma sélection du WEB</h4>
@@ -56,7 +56,7 @@
 			</div>
 		</li>
 		<li>
-			<a href="#" class="banniere bg_databoxeco" title="Ouvrir"></a>
+			<div class="banniere bg_databoxeco"></div>
 			<div class="description">
 				<div class="bandeau_logo"><img class="logo" title="logo" src="portfolio/logo/systempay.png" alt="Systempay"><img class="logo" title="logo" src="portfolio/logo/jquery-logo.png" alt="Jquery"><img class="logo" title="logo" src="portfolio/logo/php.png" alt="PHP"><img class="logo" title="logo" src="portfolio/logo/logo-html.png" alt="HTML"></div>
 				<h4>Databoxeco</h4>
@@ -71,7 +71,7 @@
 			</div>
 		</li>
 		<li>
-			<a href="#" class="banniere bg_madeinxenon" title="Ouvrir"></a>
+			<div class="banniere bg_madeinxenon"></div>
 			<div class="description">
 				<div class="bandeau_logo"><img class="logo" title="logo" src="portfolio/logo/prestashop.png" alt="PRESTASHOP"></div>
 				<h4>MADEINXENON</h4>
@@ -84,7 +84,7 @@
 			</div>
 		</li>
 		<li>
-			<a href="#" class="banniere bg_rlm" title="Ouvrir"></a>
+			<div class="banniere bg_rlm"></div>
 			<div class="description">
 				<div class="bandeau_logo"><img class="logo" title="logo" src="portfolio/logo/druplicon.large_.png" alt="DRUPAL"></div>
 				<h4>RUN Little Mama</h4>
@@ -96,8 +96,8 @@
 				</div>
 			</div>
 		</li>
-		<li>
-			<a href="#" class="banniere bg_damsbook" title="Ouvrir"></a>
+		<!--<li>
+			<div class="banniere bg_damsbook"></div>
 			<div class="description">
 				<div class="bandeau_logo"><img class="logo" title="logo" src="portfolio/logo/druplicon.large_.png" alt="DRUPAL"></div>
 				<h4>damsbook</h4>
@@ -108,10 +108,10 @@
 					<a href="portfolio/big/damsbook.jpg" data-fancybox-group="group1" title="aperçu - Damsbook" class="preview"><img src="css/img/loupe.png" alt="Loupe" title="voir"></a>
 				</div>
 			</div>
-		</li>
+		</li>-->
 		
 		<li>
-			<a href="#" class="banniere bg_bla" title="Ouvrir"></a>
+			<div class="banniere bg_bla"></div>
 			<div class="description">
 				<div class="bandeau_logo"><img class="logo" title="logo" src="portfolio/logo/druplicon.large_.png" alt="DRUPAL"><img class="logo" title="logo" src="portfolio/logo/ol.png" alt="OpenLayers"></div>
 				<h4>Bourse des locaux</h4>
