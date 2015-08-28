@@ -6,7 +6,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 		
         <meta name="description" content="Curriculum Vitae LEBRET Damien Developpeur WEB PORTFOLIO CV">
-        <meta name="Keywords" content="PORTFOLIO CV LEBRET Damien Developpeur WEB">
+        <meta name="Keywords" content="PORTFOLIO,CV,LEBRET Damien,Developpeur,WEB">
         <meta name="Content-Language" content="fr">
         <meta name="Author" content="LEBRET Damien">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -23,6 +23,13 @@
 		<meta name="twitter:title" content="CV LEBRET Damien">
 		<meta name="twitter:description" content="Curriculum Vitae LEBRET Damien Developpeur WEB PORTFOLIO CV">
 		<meta name="twitter:image:src" content="http://lebret.damien.free.fr/portfolio/bann_cv.jpg">
+		
+		<meta name="application-name" content="CV LEBRET Damien"/>
+		<meta name="msapplication-TileColor" content="#8dbcd0"/>
+		<meta name="msapplication-square70x70logo" content="vw/tiny.png"/>
+		<meta name="msapplication-square150x150logo" content="vw/square.png"/>
+		<meta name="msapplication-wide310x150logo" content="vw/wide.png"/>
+		<meta name="msapplication-square310x310logo" content="vw/large.png"/>
 		
 		<link rel="stylesheet" type="text/css" href="css/screen.css">      
         <link type="text/css" href="api/js/jquery-ui-1.10.4.custom/css/custom-theme/jquery-ui-1.10.4.custom.css" rel="stylesheet" >
