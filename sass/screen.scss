@@ -11,15 +11,21 @@
 	
 	@include font-face("BAUHS93", font-files("BAUHS93.ttf"));
 	@include font-face("Bunny", font-files("TideSans-600Bunny.ttf"));
-	@include font-face("Kahuna", font-files("TideSans-300LilKahuna.ttf"));
+	@font-face {
+    font-family: "Kahuna";
+    src: url("TideSans-300LilKahuna.eot") format("eot"),
+         url("TideSans-300LilKahuna.ttf") format("ttf"),
+         url("TideSans-300LilKahuna.woff") format("woff"),
+         url("TideSans-300LilKahuna.svg") format("svg");
+	}
 
 	$size-h1 : 2.7rem;
 	$size-h2 : 1.45rem;
 	$size-h3 : 1.125rem;
 
-	$screen-width-pc : 960px;
-	$screen-width-tablette : 768px;
-	$screen-width-smartphone : 520px;
+	$screen-width-pc : 1000px;
+	$screen-width-tablette : 800px;
+	$screen-width-smartphone : 550px;
 
 	$color-black-gen : #696566;
 	$color-black-light : #eaedf1;
@@ -194,7 +200,7 @@
 	}
 
 	body{
-		font-family: Kahuna, Arial;
+		font-family:  Arial, sans-serif;
 		color:$color-black-gen;
 		background:#2e2e2e url('img/fond-site.jpg') repeat;
 	}
@@ -299,6 +305,10 @@
   }
   
   .cv_pdf:hover {
+	@include opacity(0.6);
+  }
+
+  .link-portfolio:hover {
 	@include opacity(0.6);
   }
 
@@ -441,6 +451,7 @@
 	  min-height:50px;
 	  text-align:justify;
 	  overflow:hidden;
+	  text-overflow: clip clip;
 	  word-wrap: break-word;
 	  
 		.content{
@@ -492,7 +503,14 @@
 	  .brique_b{
 	    border-top:2px solid $color-blue;
 	    border-bottom:2px solid $color-blue;
+		  a{
+			text-decoration:underline;
+			&:hover {
+				color: $color-blue;
+			}
+		  }
 	  }
+	  
 	}	
 	
 	.brique_b{
@@ -532,7 +550,7 @@
 /*  TAGS   */
 /* * * * * */
 
-	.tags li:hover { background:$color-blue; } 
+	.tags li:hover { background:$color-blue;cursor:Default; } 
 	
 	.tags{
 		list-style:none;
@@ -541,7 +559,7 @@
 		
 		li{
 			float:left;
-			font-family: Kahuna;
+			font-family: Arial, sans-serif;
 			font-weight:bold;
 			background:$color-black-gen;
 			color:#fff;
@@ -609,168 +627,83 @@
 /*  PORTFOLIO  */
 /* * * * * * * */ 	
 	
-	.bg_carzo{background: #353b42 url("../portfolio/bann_carzo.jpg") no-repeat center left}
-	.bg_ccia{background: #353b42 url(../portfolio/bann_ccia.jpg) no-repeat center left}
-	.bg_cv{background: #353b42 url(../portfolio/bann_cv.jpg) no-repeat center left}
-	.bg_msw{background: #353b42 url(../portfolio/bann_msdw.jpg) no-repeat center left}
-	.bg_databoxeco{background: #353b42 url(../portfolio/bann_databoxeco.jpg) no-repeat center left}
-	.bg_madeinxenon{background: #353b42 url(../portfolio/bann_madeinxenon.jpg) no-repeat center left}
-	.bg_rlm{background: #353b42 url(../portfolio/bann_RLM.jpg) no-repeat center left}
-	.bg_damsbook{background: #353b42 url(../portfolio/bann_damsbook.jpg) no-repeat center left}
-	.bg_bla{background: #353b42 url(../portfolio/bann_bla.jpg) no-repeat center left}
-	
-	
-	$portfolio-width-a : 900px;
-	$portfolio-width-b : 720px;
-	$portfolio-width-c : 486px;
-	$portfolio-width-d : 270px;
-	
-	$portfolio-height-a : 156px;
-	$portfolio-height-b : 126px;
-	$portfolio-height-c : 87px;
-	$portfolio-height-d : 51px;
-	
-	$portfolio-height-e : 420px;
-	$portfolio-height-f : 350px;
-	$portfolio-height-g : 270px;
-	$portfolio-height-h : 270px;
-		
-	#portfolio{
-		margin:20px auto;
-		color:#000;
-		padding:0;
-		width:90%;
-		
-				@media only screen and (min-width: $screen-width-pc) {width:$portfolio-width-a;}
-				@media only screen and (min-width: $screen-width-tablette) and (max-width: $screen-width-pc) {width:$portfolio-width-b;}
-				@media only screen and (min-width: $screen-width-smartphone) and (max-width: $screen-width-tablette) {width:$portfolio-width-c;}
-				@media only screen and (max-width: $screen-width-smartphone){width:$portfolio-width-d;}
-		
-		ul{
-			margin-left:0px;
-			width:100%;
-			
-			li{
-				text-align:right;
-				position:relative;
-				float:top;
-				overflow:hidden;
-				list-style:none;
-				text-align:center;				
-				@include transition( height,1s,ease, 1s);
-				padding:0;
-				width:100%;
-				margin-bottom:3px;
-				
-				@media only screen and (min-width: $screen-width-pc) {height:$portfolio-height-a;}
-				@media only screen and (min-width: $screen-width-tablette) and (max-width: $screen-width-pc) {height:$portfolio-height-b;}
-				@media only screen and (min-width: $screen-width-smartphone) and (max-width: $screen-width-tablette) {height:$portfolio-height-c;}
-				@media only screen and (max-width: $screen-width-smartphone) {height:$portfolio-height-d;}
-				
-				&:hover {
-					@media only screen and (min-width: $screen-width-pc) {height:$portfolio-height-e;}
-					@media only screen and (min-width: $screen-width-tablette) and (max-width: $screen-width-pc) {height:$portfolio-height-f;}
-					@media only screen and (min-width: $screen-width-smartphone) and (max-width: $screen-width-tablette) {height:$portfolio-height-g;}
-					@media only screen and (max-width: $screen-width-smartphone) {height:$portfolio-height-h;}
-				}
-				
-				&:hover a {
-					@include opacity(0.9);
-				}
-				
-				.banniere{
-					padding-top:0px;
-					display:block;
-					position:absolute;
-					z-index:20;					
-					color:#fff;
-					text-decoration:none;
-					width:100%;						
-					@include border-radius(5px, 5px);
-					border: 1px solid $color-black-gen;
-					
-					@media only screen and (min-width: $screen-width-pc) {height:$portfolio-height-a - 6px;background-size: 100% $portfolio-height-a - 6px !important;width:$portfolio-width-a - 2px;}
-					@media only screen and (min-width: $screen-width-tablette) and (max-width: $screen-width-pc) {height:$portfolio-height-b - 6px;background-size: 100% $portfolio-height-b - 6px !important;width:$portfolio-width-b - 2px;}
-					@media only screen and (min-width: $screen-width-smartphone) and (max-width: $screen-width-tablette) {height:$portfolio-height-c - 6px;background-size: 100% $portfolio-height-c - 6px !important;width:$portfolio-width-c - 2px;}
-					@media only screen and (max-width: $screen-width-smartphone) {height:$portfolio-height-d - 6px;background-size: 100% $portfolio-height-d - 6px !important;width:$portfolio-width-d - 2px;}
-				}
-				
-				.description{				
-					background:#FFF;
-					overflow: hidden;	
-					border: 1px solid $color-black-gen;	
-					@include border-radius(5px, 5px);	
-				
-					@media only screen and (min-width: $screen-width-pc) {height:$portfolio-height-e - $portfolio-height-a - 2px;margin-top:$portfolio-height-a;width:$portfolio-width-a - 2px;}
-					@media only screen and (min-width: $screen-width-tablette) and (max-width: $screen-width-pc) {height:$portfolio-height-f - $portfolio-height-b - 2px;margin-top:$portfolio-height-b;width:$portfolio-width-b - 2px; }
-					@media only screen and (min-width: $screen-width-smartphone) and (max-width: $screen-width-tablette) {height:$portfolio-height-g - $portfolio-height-c - 2px;margin-top:$portfolio-height-c;width:$portfolio-width-c - 2px; }
-					@media only screen and (max-width: $screen-width-smartphone) {margin-top:$portfolio-height-d ;height:$portfolio-height-h - $portfolio-height-d - 2px;width:$portfolio-width-d - 2px;}
-				}
-				
-				.bandeau_logo{
-					position:absolute;
-					@media only screen and (min-width: $screen-width-pc) {top:$portfolio-height-a + 13px;left:10px;}
-					@media only screen and (min-width: $screen-width-tablette) and (max-width: $screen-width-pc) {top:$portfolio-height-b + 13px;left:10px;}
-					@media only screen and (min-width: $screen-width-smartphone) and (max-width: $screen-width-tablette) {top:$portfolio-height-c + 13px;left:10px;}
-					@media only screen and (max-width: $screen-width-smartphone) {top:$portfolio-height-d + 13px;left:10px;}	
-
-					.logo{
-						margin-right:10px;
-						@include opacity(0.5);						
-						@media only screen and (min-width: $screen-width-pc) {height:50px;float:left;}
-						@media only screen and (min-width: $screen-width-tablette) and (max-width: $screen-width-pc) {height:40px;float:left;}
-						@media only screen and (min-width: $screen-width-smartphone) and (max-width: $screen-width-tablette) {height:30px;float:left;}
-						@media only screen and (max-width: $screen-width-smartphone) {height:15px;float:left;}	
-					}
-				}
-				
-				h4{
-					color:$color-black-gen;
-					text-align:right;
-					@include transform2d(rotate(-15deg));	  	  
-					font-family: bunny;
-					letter-spacing:-2px;
-					text-align:left;
-					border-bottom:1px solid #6F7A81;
-					margin:0px 25px 25px 0;
-					color:#6F7A81;
-					font-size:2rem;
-					
-					@media only screen and (min-width: $screen-width-pc) {padding:$portfolio-height-a - 50px 0 5px 45px;}
-					@media only screen and (min-width: $screen-width-tablette) and (max-width: $screen-width-pc) {padding:$portfolio-height-b - 30px 0 5px 45px;}
-					@media only screen and (min-width: $screen-width-smartphone) and (max-width: $screen-width-tablette) {padding:$portfolio-height-c - 20px 0 5px 45px;}
-					@media only screen and (max-width: $screen-width-smartphone) {padding:$portfolio-height-d - 5px 0 5px 25px;}
-				}
-				
-				p{
-					color:$color-black-gen;
-					text-align:right;
-					@include transform2d(rotate(-15deg));	  
-					margin:0 25px 25px 0;
-				}
-				
-				.bandeau_footer{
-					position:absolute;
-					bottom:10px;
-					right:10px;
-					
-					a img{
-						margin-right:10px;
-						@include opacity(0.5);
-						
-						@media only screen and (min-width: $screen-width-pc) {height:32px;}
-						@media only screen and (min-width: $screen-width-tablette) and (max-width: $screen-width-pc) {height:32px;}
-						@media only screen and (min-width: $screen-width-smartphone) and (max-width: $screen-width-tablette) {height:25px;}
-						@media only screen and (max-width: $screen-width-smartphone) {height:20px;}
-					}
-					
-					a{
-						&:hover img{
-							@include opacity(0.9);
-						}
-					}
-				} 
-				
+	.portfolio_presentation{
+		.bandeau_logo{
+			margin-left: 10px;
+			float: left;
+			.logo{
+				@include opacity(0.5);				
+				float:left;
+				@media only screen and (min-width: $screen-width-pc) {height:30px;margin-left:10px;}
+				@media only screen and (min-width: $screen-width-tablette) and (max-width: $screen-width-pc) {height:30px;margin-left:10px;}
+				@media only screen and (min-width: $screen-width-smartphone) and (max-width: $screen-width-tablette) {height:20px;margin-left:5px;}
+				@media only screen and (max-width: $screen-width-smartphone) {height:2px;margin-left:5px;}
 			}
 		}
+
+		.titre{
+			float: left;
+			@media only screen and (min-width: $screen-width-pc) {height:30px;line-height: 30px;@include titre($size-h3, bunny, normal, 0px);}
+			@media only screen and (min-width: $screen-width-tablette) and (max-width: $screen-width-pc) {height:30px;line-height: 30px;@include titre($size-h3, bunny, normal, 0px);}
+			@media only screen and (min-width: $screen-width-smartphone) and (max-width: $screen-width-tablette) {height:20px;line-height: 20px;@include titre($size-h3, bunny, normal, 0px);}
+			@media only screen and (max-width: $screen-width-smartphone) {height:20px;line-height: 20px;@include titre($size-h3, bunny, normal, 0px);}
+		}
+
+		.description{
+			padding: 10px 0;
+			clear: both;
+			.sous-titre{font-weight: bold;}
+			.text-italic{font-style: italic;}
+		}
+
+		img.screen{
+			width:100%;
+		}
+	}
+
+	#nportfolio{
+
+		margin:2% 0 20px 2%;
+    	display: flex;
+    	flex-wrap: wrap;
+			@media only screen and (max-width: $screen-width-smartphone) {align-items: center;flex-direction: column;}
+
+		
+		.element{
+			@media only screen and (min-width: $screen-width-pc) {width:213px;}
+			@media only screen and (min-width: $screen-width-tablette) and (max-width: $screen-width-pc) {width:233.33px;}
+			@media only screen and (min-width: $screen-width-smartphone) and (max-width: $screen-width-tablette) {width:232.8px;}
+			@media only screen and (max-width: $screen-width-smartphone) {width:233px;}
+
+			height:150px;	
+			margin:0 2% 10px 0;
+			overflow: hidden;
+			border: 6px solid #FFF;
+
+			.description{
+				display: none;
+				height: 150px;
+				background: #FFF;
+				@include opacity(0.8);
+				text-align: center;
+
+				h4{
+					@include titre($size-h2, bunny, normal, -1px);
+					width: 100%;
+				}
+
+				.bandeau_footer{padding: 10px 0 30px 0;}
+			}
+			
+		}
+
+		.portfolio-carzo{background: #FFFFFF url(../portfolio/carre/carzo.jpg) no-repeat center top;}
+		.portfolio-ccia{background: #FFFFFF url(../portfolio/carre/ccia.jpg) no-repeat center top;}
+		.portfolio-moncv{background: #FFFFFF url(../portfolio/carre/cv.jpg) no-repeat center top;}
+		.portfolio-msdw{background: #FFFFFF url(../portfolio/carre/msdw.jpg) no-repeat center top;}
+		.portfolio-databoxeco{background: #FFFFFF url(../portfolio/carre/databoxeco.jpg) no-repeat center top;}
+		.portfolio-madeinxenon{background: #FFFFFF url(../portfolio/carre/madeinxenon.jpg) no-repeat center top;}
+		.portfolio-rlm{background: #FFFFFF url(../portfolio/carre/RLM.jpg) no-repeat center top;}
+		.portfolio-bla{background: #FFFFFF url(../portfolio/carre/bla.jpg) no-repeat center left}
+
 	}

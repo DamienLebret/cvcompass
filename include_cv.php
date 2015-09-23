@@ -90,6 +90,10 @@
 						<td class="w60"><img class="cpt_oui" title="compétences" alt="T" src="img/8dbcd0.png"><img class="cpt_oui" title="compétences" alt="T" src="img/8dbcd0.png"><img class="cpt_oui" title="compétences" alt="T" src="img/8dbcd0.png"><img class="cpt_oui" title="compétences" alt="T" src="img/8dbcd0.png"><img class="cpt_oui" title="compétences" alt="T" src="img/8dbcd0.png"></td>
 					</tr>
 					<tr>
+						<td>CSS</td>
+						<td class="w60"><img class="cpt_oui" title="compétences" alt="T" src="img/8dbcd0.png"><img class="cpt_oui" title="compétences" alt="T" src="img/8dbcd0.png"><img class="cpt_oui" title="compétences" alt="T" src="img/8dbcd0.png"><img class="cpt_oui" title="compétences" alt="T" src="img/8dbcd0.png"><img class="cpt_oui" title="compétences" alt="T" src="img/8dbcd0.png"></td>
+					</tr>
+					<tr>
 						<td>Javascript</td>
 						<td class="w60"><img class="cpt_oui" title="compétences" alt="T" src="img/8dbcd0.png"><img class="cpt_oui" title="compétences" alt="T" src="img/8dbcd0.png"><img class="cpt_oui" title="compétences" alt="T" src="img/8dbcd0.png"><img class="cpt_oui" title="compétences" alt="T" src="img/8dbcd0.png"><img class="cpt_oui" title="compétences" alt="T" src="img/rond_vide.png"></td>
 					</tr>

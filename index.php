@@ -31,12 +31,13 @@
 		<meta name="msapplication-wide310x150logo" content="vw/wide.png"/>
 		<meta name="msapplication-square310x310logo" content="vw/large.png"/>
 		
+        <link rel="stylesheet" type="text/css" href="api/js/jquery-ui-1.10.4.custom/css/custom-theme/jquery-ui-1.10.4.custom.min.css">
+        <link rel="stylesheet" type="text/css" href="api/js/fancyBox/source/jquery.fancybox.css">
 		<link rel="stylesheet" type="text/css" href="css/screen.css">      
-        <link type="text/css" href="api/js/jquery-ui-1.10.4.custom/css/custom-theme/jquery-ui-1.10.4.custom.css" rel="stylesheet" >
-        <link type="text/css" href="api/js/fancyBox/source/jquery.fancybox.css" rel="stylesheet" >
+
         <link rel="shortcut icon" href="favicon.ico" >
 		
-			<link href='http://fonts.googleapis.com/css?family=Righteous' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Karla' rel='stylesheet' type='text/css'>
 		
 		<!--[if lt IE 9]> // version inférieur a IE 9
 		<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
@@ -49,6 +50,16 @@
         <script type="text/javascript" src="api/js/docready.js"  ></script> 
 		
 		
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-43905441-1', 'auto');
+		  ga('send', 'pageview');
+
+		</script>  
 </head>
 <body>
 	<?php	
@@ -135,7 +146,7 @@
 		
 		<div id="page" class="margin_padding_zero">
 			<?php 		
-					include(dirname(__FILE__)."/include_mon-portfolio.php");
+					include(dirname(__FILE__)."/include_".$getp.".php");
 			?>
 		</div>
 		
@@ -143,5 +154,5 @@
 	</div>
 	
 	<div id="footer"><a href="mailto:lebret.damien@gmail.com" title="Damien LEBRET">Damien LEBRET</a> - <a id="open_bd" class="pointer" title="Mentions légales">Mentions légales</a> - <a href="sitemap.xml" title="Sitemap" target="_blank">Sitemap</a> - <a href="cv" title="Mon CV">Mon CV</a> - <a href="mon-portfolio" title="Portfolio">Portfolio</a></div>
-</body>    
+</body> 
 </html>
